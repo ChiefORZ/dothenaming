@@ -40,10 +40,20 @@
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.3.1",
+    "lint-staged": "^4.3.0",
     "prettier": "^1.7.4",
     "release-it": "^3.1.2"
   },
   "scripts": {
+    "precommit": "lint-staged",
+    "prettier": "prettier --write \"{bin,lib}/**/*.js\"",
     "release": "release-it"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
   }
 }
