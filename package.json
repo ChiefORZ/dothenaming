@@ -4,6 +4,24 @@
   "bin": "./bin/dothenaming.js",
   "main": "./bin/dothenaming.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChiefORZ/dothenaming.git"
+  },
+  "tags": [
+    "tv",
+    "rename"
+  ],
+  "keywords": [
+    "tv",
+    "series",
+    "episode",
+    "movie",
+    "rename",
+    "organizer",
+    "node",
+    "cli"
+  ],
   "dependencies": {
     "chalk": "^2.2.0",
     "debug": "^3.1.0",
@@ -22,6 +40,10 @@
     "eslint-config-prettier": "^2.6.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.3.1",
-    "prettier": "^1.7.4"
+    "prettier": "^1.7.4",
+    "release-it": "^3.1.2"
+  },
+  "scripts": {
+    "release": "release-it"
   }
 }
