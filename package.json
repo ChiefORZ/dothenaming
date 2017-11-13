@@ -1,6 +1,6 @@
 {
   "name": "dothenaming",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": "./bin/dothenaming.js",
   "main": "./bin/dothenaming.js",
   "license": "MIT",
