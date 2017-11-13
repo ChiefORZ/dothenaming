@@ -2,7 +2,7 @@
 
 CLI tool for tv renaming - do the naming.
 
-<img align="right" src="./assets/dothenaming.gif?raw=true" height="148">
+<img align="right" src="https://i.imgur.com/EPyeVWh.gif" height="148">
 
 * **Categorizes** videos in the source directory as movie and tv series
 * **Searches** for series information on thetvdb.com and movies on themoviedb.org
