@@ -2,13 +2,12 @@
 
 CLI tool for tv renaming - do the naming.
 
-![dothenaming](https://i.imgur.com/EPyeVWh.gif)
-
-## Features
+<img align="right" src="./assets/dothenaming.gif?raw=true" height="148">
 
 * **Categorizes** videos in the source directory as movie and tv series
 * **Searches** for series information on thetvdb.com and movies on themoviedb.org
 * **Renames** movies and tv series and moves them into their corresponding folders
+
 
 ## Installation
 
